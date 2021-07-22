@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const getUrl = (year: string) => `http://ergast.com/api/f1/${year}/driverStandings.json`;
+const getUrl = (year: string) => `https://ergast.com/api/f1/${year}/driverStandings.json`;
 
 interface Driver {
   driverId: string;
