@@ -7,8 +7,6 @@ const Winners = () => {
   const { year } = useParams<{ year: string }>();
   const { data, loading, error } = useFetch(year);
 
-  console.log({ data, loading, error });
-
   if (error) {
     return (
       <div className="container">
